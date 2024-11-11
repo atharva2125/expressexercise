@@ -12,4 +12,8 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
+app.get('/about', (req, res) => {
+  res.send('About birds');
+});
+
 app.listen(3000);
